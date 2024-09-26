@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiciFit - Venta de Bicicletas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logopeng.jpeg" alt="Logo de BisiFit">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="crear.html">Crea tu cuenta</a></li>
+                <li><a href="register.html">Registrate</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar bicicletas...">
+            <button>Buscar</button>
+        </div>
+    </header>
+
+
+    <section class="carousel">
+        <div class="slide active" style="background-image: url('');">
+            <h2>Bicis de alta calidad</h2>
+            <p>Explora nuestra colección de bicicletas de última generación.</p>
+            <a href="#" class="btn">Comprar Ahora</a>
+        </div>
+        <div class="slide" style="background-image: url('bicicleta2.jpg');">
+            <h2>Descuentos de verano</h2>
+            <p>Aprovecha hasta un 30% de descuento en bicicletas seleccionadas.</p>
+            <a href="#" class="btn">Ver Ofertas</a>
+        </div>
+        <div class="slide" style="background-image: url('bicicleta3.jpg');">
+            <h2>Accesorios exclusivos</h2>
+            <p>Encuentra todo lo que necesitas para complementar tu bicicleta.</p>
+            <a href="#" class="btn">Ver Accesorios</a>
+        </div>
+        <div class="carousel-nav">
+            <span class="nav-btn" onclick="moveSlide(-1)">&#10094;</span>
+            <span class="nav-btn" onclick="moveSlide(1)">&#10095;</span>
+        </div>
+    </section>
+
+    <!-- Sección de productos destacados -->
+    <section class="featured-products">
+        <h2>Productos Destacados</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="bicicleta montaña.jpg" alt="Bicicleta 1">
+                <h3>Bicicleta de Montaña</h3>
+                <p>$800.00</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="product">
+                <img src="" alt="Bicicleta 2">
+                <h3>Bicicleta Urbana</h3>
+                <p>$650.00</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="product">
+                <img src="" alt="Bicicleta 3">
+                <h3>Bicicleta de Carretera</h3>
+                <p>$1,200.00</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="product">
+                <img src="" alt="Bicicleta 4">
+                <h3>Bicicleta Eléctrica</h3>
+                <p>$1,500.00</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Sobre BiciFit</h3>
+                <p>Somos una tienda dedicada a ofrecer las mejores bicicletas y accesorios para ciclistas de todo tipo.</p>
+            </div>
+            <p>© 2024 BiciFit. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
