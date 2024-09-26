@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.login-image {
+    width: 300px; /* Adjust as needed */
+    height: auto;
+}
+
+.login-box {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px; /* Same width as the image */
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: blue;
+}

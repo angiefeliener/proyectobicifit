@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    height: 100vh;
+}
+.menu{
+    background-color: rgb(0, 217, 255) ;
+    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    
+   
+}
+.contenido{
+    flex: 1;
+    background: linear-gradient(#53dff8, #aaaaad);
+   
+}
+.menulateral a{
+    display: block;
+color :rgb(0, 0, 0);
+padding: 10px;
+font-weight:bold;
+text-decoration:none;
+
+}
+.menulateral a:hover{
+    background-color: rgb(185, 48, 24);
+}
+.cerrars{
+    background-color: black;
+    color: rgb(211, 223, 226);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    margin-top: 20px;
+}
+.titulo h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
