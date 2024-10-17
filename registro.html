@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Bicifit</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+       
+        <div class="logo-container">
+            <img src="/imagenes/logopeng.jpeg" alt="Bicifit Fitness Shop Logo" class="logo">
+        </div>
+        
+       <div class="register-box">
+            <h2>REGISTRARSE</h2>
+            <p>Crea tu cuenta. Es gratis y sólo te llevará un minuto.</p>
+            <form action="registro.php" method="POST">
+                <input type="text" name="nombre" placeholder="NOMBRE" required>
+                <input type="text" name="apellido" placeholder="APELLIDO" required>
+                <input type="tel" name="telefono" placeholder="NUMERO CELULAR" required>
+                <input type="email" name="correo" placeholder="CORREO ELECTRONICO" required>
+                <input type="password" name="contraseña" placeholder="CONTRASEÑA" required>
+                <button type="submit">ACCESO</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

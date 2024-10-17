@@ -1,3 +1,4 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #107acc;
+    background-color: #35799971;
     color: #333;
 }
 
@@ -15,8 +16,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
-    color: #107acc;
+    background-color: #130620;
+    color: rgb(31, 39, 146);
     padding: 20px;
 }
 
@@ -34,7 +35,7 @@ header .logo img {
 }
 
 .navbar ul li a {
-    color: white;
+    color: rgb(28, 184, 223);
     text-decoration: none;
     font-weight: bold;
 }
@@ -58,8 +59,8 @@ header .logo img {
 .search-bar button {
     padding: 10px 20px;
     border: none;
-    background-color: #f44336;
-    color: white;
+    background-color: #06e8f0;
+    color: rgb(21, 21, 22);
     border-radius: 5px;
     margin-left: 10px;
     cursor: pointer;
@@ -81,7 +82,7 @@ header .logo img {
     background-position: center;
     display: none;
     text-align: center;
-    color: rgb(5, 4, 5);
+    color: rgb(100, 33, 207);
     padding-top: 150px;
 }
 
@@ -92,8 +93,8 @@ header .logo img {
 
 .carousel .btn {
     padding: 10px 20px;
-    background-color: #f44336;
-    color: #050505;
+    background-color: #4a5b7a;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
@@ -103,8 +104,8 @@ header .logo img {
 .carousel-nav .nav-btn {
     position: absolute;
     top: 50%;
-    color: rgb(192, 190, 207);
-    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: rgba(104, 92, 146, 0.5);
     padding: 10px;
     cursor: pointer;
     border-radius: 50%;
@@ -126,12 +127,15 @@ header .logo img {
 @keyframes fade {
     from { opacity: 0; }
     to { opacity: 1; }
+    
 }
 
 /* Productos Destacados */
 .featured-products {
     padding: 50px 20px;
     text-align: center;
+    border-radius: 40px;
+    border-image: 50px;
 }
 
 .featured-products h2 {
@@ -146,24 +150,17 @@ header .logo img {
 }
 
 .product {
-    background-color: rgb(15, 189, 165);
+    background-color: rgba(98, 46, 158, 0.26);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    height: 40vh;
-    width: 350px;
-    margin-top: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .product img {
-    width: 200;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     object-fit: cover;
-    margin-bottom: auto;
-    border-radius: 30px;
+    margin-bottom
+    border-image: 30px;
 }
-
-
-
-

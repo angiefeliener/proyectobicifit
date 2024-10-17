@@ -14,7 +14,8 @@ body {
     flex-direction: column;
 }
 
-.login-container {
+/* Contenedor principal que engloba todo */
+.container {
     text-align: center;
     width: 100%;
     max-width: 1200px;
@@ -25,32 +26,64 @@ body {
 
 .logo-container {
     margin-bottom: 20px;
+    clip-path: circle();
 }
 
 .logo {
-    width: 300px; /* Tamaño del logo */
+    width: 200px; /* Tamaño del logo */
     margin-bottom: 20px;
 }
 
-.login-box {
+.info-container p {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 30px;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #999999;
+}
+
+.register-box {
     background-color: #666666;
     padding: 30px;
     border-radius: 10px;
     width: 350px;
-    text-align: left;
 }
 
-form label {
+h2 {
     color: white;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 8px;
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 
-form input {
+.register-box p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+input {
     width: 100%;
     padding: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -68,24 +101,4 @@ button {
 
 button:hover {
     background-color: #999999;
-}
-
-.extras {
-    margin-top: 10px;
-}
-
-.extras p {
-    color: white;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.extras a {
-    color: #00AEEF;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.extras a:hover {
-    text-decoration: underline;
 }
