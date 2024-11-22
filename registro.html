@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro Bicifit</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Registro BICIFIT</title>
+    <link rel="stylesheet" href="estilo.css"> 
 </head>
 <body>
-    <div class="container">
-       
-        <div class="logo-container">
-            <img src="/imagenes/logopeng.jpeg" alt="Bicifit Fitness Shop Logo" class="logo">
+
+<div class="container">
+    <div class="register-container">
+        <div class="image-section">
+            <img src="/imagenes/fondo.jpeg" alt="Bicifit Fitness Shop Logo" class="logo">
         </div>
-        
-       <div class="register-box">
-            <h2>REGISTRARSE</h2>
-            <p>Crea tu cuenta. Es gratis y sólo te llevará un minuto.</p>
-            <form action="registro.php" method="POST">
-                <input type="text" name="nombre" placeholder="NOMBRE" required>
-                <input type="text" name="apellido" placeholder="APELLIDO" required>
-                <input type="tel" name="telefono" placeholder="NUMERO CELULAR" required>
-                <input type="email" name="correo" placeholder="CORREO ELECTRONICO" required>
-                <input type="password" name="contraseña" placeholder="CONTRASEÑA" required>
-                <button type="submit">ACCESO</button>
+        <div class="form-section">
+            <h2>REGISTRARTE</h2>
+            <p>Crea tu cuenta. Es gratis y solo te llevará un minuto.</p>
+            <form>
+                <input type="text" placeholder="NOMBRE" required>
+                <input type="text" placeholder="APELLIDO" required>
+                <input type="text" placeholder="NUMERO CELULAR" required>
+                <input type="email" placeholder="CORREO ELECTRÓNICO" required>
+                <input type="password" placeholder="CONTRASEÑA" required>
+                <button type="submit">REGISTRARTE</button>
             </form>
         </div>
     </div>
+</div>
+
 </body>
 </html>

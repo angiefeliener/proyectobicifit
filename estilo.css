@@ -1,104 +1,83 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #00AEEF;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column;
 }
 
-/* Contenedor principal que engloba todo */
-.container {
-    text-align: center;
-    width: 100%;
-    max-width: 1200px;
+.register-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #002775;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 800px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.logo-container {
+.image-section {
+    background-image: url('izquierda.jpg'); /* Cambia esta URL a la de tu imagen */
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    position: relative;
+}
+
+.image-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Efecto de opacidad en la imagen */
+}
+
+.form-section {
+    padding: 40px;
+    background-color: white;
+    width: 50%;
+}
+
+.form-section h2 {
     margin-bottom: 20px;
-    clip-path: circle();
+    color: #002775;
+    text-align: center;
 }
 
-.logo {
-    width: 200px; /* Tamaño del logo */
+.form-section p {
+    text-align: center;
+    color: #555;
     margin-bottom: 20px;
 }
 
-.info-container p {
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.button-group {
-    margin-bottom: 30px;
-}
-
-.btn {
-    padding: 12px 30px;
-    background-color: #cccccc;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    color: black;
-    text-decoration: none;
-    margin: 0 15px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #999999;
-}
-
-.register-box {
-    background-color: #666666;
-    padding: 30px;
+.form-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
     border-radius: 10px;
-    width: 350px;
-}
-
-h2 {
-    color: white;
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.register-box p {
-    color: white;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-input {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border: none;
-    border-radius: 5px;
+    box-sizing: border-box;
     font-size: 16px;
 }
 
-button {
+.form-section button {
     width: 100%;
     padding: 12px;
-    background-color: #cccccc;
+    background-color: #002775;
     border: none;
-    border-radius: 5px;
-    font-size: 18px;
+    color: white;
+    font-size: 16px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
-button:hover {
-    background-color: #999999;
+.form-section button:hover {
+    background-color: #0042b3;
 }
