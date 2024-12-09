@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiciFit - Catalogo de Bicicletas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="Principal.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/imagenes/logopeng.jpeg" alt="Logo de BisiFit">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="crear.html">Iniciar Sesion</a></li>
+                <li><a href="registro.html">Registrate</a></li>
+                <li><a href="#">Carrito </a></li>
+                <li><a  href="Accesorio.html"> Catalogo Accesorios</a></li>
+                <li><a  href=""> Productos</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar bicicletas...">
+            <button>Buscar</button>
+        </div>
+        <form id="formulario" method="post" action="conect.php"></form>
+    </header>
+
+
+    <section class="carousel">
+        <div class="slide active" style="background-image: url('/imagenes/Captura\ de\ pantalla\ 2024-12-05\ 134727.png');">
+            <h2>Bicicletas de alta calidad</h2>
+            <p>Explora nuestra colección de bicicletas y Accesorios de última generación.</p>
+            <a href="#" class="btn">Ver Catalogo</a>
+        </div>
+        <div class="slide" style="background-image: url('');">
+            <h2>Descuentos de Diciembre</h2>
+            <p>Aprovecha hasta un 30% de descuento en bicicletas seleccionadas.</p>
+            <a href="#" class="btn">Ver Ofertas</a>
+        </div>
+        <div class="slide" style="background-image: url('');">
+            <h2>Accesorios exclusivos</h2>
+            <p>Encuentra todo lo que necesitas para complementar tu bicicleta.</p>
+            <a href="Accesorio.html" class="btn">Ver Accesorios</a>
+        </div>
+        <div class="slide" style="background-image: url('bicicleta3.jpg');">
+            <h2>Te damos La Bienvenida</h2>
+            <p> Crea tu cuenta para ver Nuestro Catalogo De Bicicletas.</p>
+            <a href="crear.html" class="btn">Crea tu cuenta</a>
+        </div>
+        <div class="carousel-nav">
+            <span class="nav-btn" onclick="moveSlide(-1)">&#10094;</span>
+            <span class="nav-btn" onclick="moveSlide(1)">&#10095;</span>
+        </div>
+    </section>
+
+    <!-- Sección de productos destacados -->
+    <section class="featured-products">
+        <h2>Productos Destacados</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="/imagenes/new1.png" alt="Bicicleta 1">
+                <h3>Bicicleta CLIFF-LIZARD-24HD</h3>
+                <p>$800.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/new2.png" alt="Bicicleta 2">
+                <h3>Bicicleta  GW-DEER-7VEL</h3>
+                <p>$650.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/new3.png" alt="Bicicleta 3">
+                <h3>Bicicleta GW-LANCER-BRAKE</h3>
+                <p>$1,200.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/new4.png" alt="Bicicleta 4">
+                <h3>Bicicleta GW-TITAN-20</h3>
+                <p>$1,500.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/new5.png" alt="Bicicleta 4">
+                <h3>Bicicleta ONTRAIL-VORTEX-24 </h3>
+                <p>$1,500.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/new6.png" alt="Bicicleta 2">
+                <h3>Bicicleta GW-TITAN-24</h3>
+                <p>$650.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/new7.png" alt="Bicicleta 2">
+                <h3>Bicicleta VENZO-SKYLINE-27.5</h3>
+                <p>$650.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/new8.png" alt="Bicicleta 2">
+                <h3>Bicicleta GW JUMPER</h3>
+                <p>$650.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/NEW9.png" alt="Bicicleta 2">
+                <h3>Bicicleta CLIFF-LIZARD-24HD LLANTA GRANDES</h3>
+                <p>$650.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/10new.png" alt="Bicicleta 2">
+                <h3>Bicicleta GW-EXTREME-16</h3>
+                <p>$650.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/NEW11.png" alt="Bicicleta 2">
+                <h3>Bicicleta GW-SHADOW-16</h3>
+                <p>$650.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+            <div class="product">
+                <img src="/imagenes/NEW12.png" alt="Bicicleta 2">
+                <h3>Bicicleta ONTRAIL-FLOWER-20</h3>
+                <p>$650.00</p>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Sobre BiciFit</h3>
+               <br>
+                <p>Nuestras Redes Sociales</p>
+                <br>
+            </div>
+          
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="/imagenes/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="/imagenes/instagram.jpg" alt="Instagram">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="/imagenes/x (2).png" alt="Twitter">
+                </a>
+                <a href="https://WatsApp.com" target="_blank">
+                    <img src="/imagenes/whatsapp.jpg" alt="Twitter">
+                </a>
+            </div>
+            <p>&copy; 2024 BiciFit. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
